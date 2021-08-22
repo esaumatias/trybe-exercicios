@@ -1,0 +1,32 @@
+ol {
+    background-color: yellow;
+}
+.impar {
+    text-transform: uppercase;
+}
+.par {
+    color: green;
+}
+h1 {
+    color: red;
+    font-size: 40px;
+}
+h3 {
+    color: red;
+}
+li {
+    font-size: 20px;
+}
+li em {
+    font-weight: 600;
+}
+.azul {
+    color: blue;
+}
+.rosa {
+    background-color: pink;
+}
+ul li a:hover {
+    font-weight: 600;
+    color: red;
+}
