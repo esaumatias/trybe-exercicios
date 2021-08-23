@@ -1,0 +1,52 @@
+body {
+    width: 1000px;
+    margin: auto;
+    background-color: antiquewhite;
+}
+header {
+    text-align: center;
+}
+h1 {
+    margin-bottom: 0px;
+    text-transform: uppercase;
+}
+ul li{
+    margin-top: 0px;
+    list-style: none;
+    display: inline-block;
+    text-transform: uppercase;
+}
+li {
+    background-color: aquamarine;
+    padding: 10px;
+}
+a {
+    text-decoration: none;
+    color: rgb(13, 14, 13);
+}
+a:hover {
+    color: beige;
+}
+p {
+    text-align: justify;
+}
+img {
+    width: 600px;
+   text-align: center;
+   margin-left: 200px;
+}
+tr {
+    background-color: aqua;
+}
+td {
+    background-color: aquamarine;
+}
+section {
+    margin: auto;
+}
+footer {
+    margin-top: 30px;
+    text-align: center;
+    background-color: aquamarine;
+    padding: 10px;
+}
