@@ -14,11 +14,13 @@ function operacao (a, op, b) {
 } console.log(operacao(5, "*", 10))
 
 //Faça um programa que retorne o maior de dois números. Defina no começo do programa duas constantes com os valores que serão comparados.
-if (a > b) {
-    console.log(a)
+function maior2(c,d) {
+if (c > d) {
+    return c;
 } else {
-    console.log(b)
+    return d;
 }
+} console.log(maior2(10, 50))
 
 //Faça um programa que retorne o maior de três números. Defina no começo do programa três constantes com os valores que serão comparados.
 if (a > b && a >> c) {
