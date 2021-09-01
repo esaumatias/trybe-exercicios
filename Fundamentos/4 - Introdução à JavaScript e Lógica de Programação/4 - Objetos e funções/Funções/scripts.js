@@ -1,13 +1,17 @@
-const a = 26;
-const b = 22;
-const c = 28;
-
 //Faça cinco programas, um para cada operação aritmética básica. Seu programa deve ter duas constantes, a e b , definidas no começo com os valores que serão operados.
-console.log(a + b)
-console.log(a - b)
-console.log(a * b)
-console.log(a / b)
-console.log(a % b)
+function operacao (a, op, b) {
+  if (op === '-') {
+    return a - b;
+  } else if (op === '+') {
+    return a + b;
+  } else if (op === '/') {
+    return a / b;
+  } else if (op === '*') {
+    return a * b;
+  } else if (op === '%') {
+    return a % b;
+  }
+} console.log(operacao(5, "*", 10))
 
 //Faça um programa que retorne o maior de dois números. Defina no começo do programa duas constantes com os valores que serão comparados.
 if (a > b) {
