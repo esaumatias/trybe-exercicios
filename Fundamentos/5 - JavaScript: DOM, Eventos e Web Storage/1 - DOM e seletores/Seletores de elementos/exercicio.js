@@ -1,0 +1,12 @@
+document.querySelector('.emergency-tasks').style.backgroundColor = 'green';
+document.querySelector('.no-emergency-tasks').style.backgroundColor = 'blue';
+document.querySelector('.emergency-tasks h3').style.backgroundColor = 'red';
+document.querySelector('.no-emergency-tasks h3').style.backgroundColor = 'pink';
+document.querySelector('.emergency-tasks h3').style.color = 'black';
+document.querySelector('.no-emergency-tasks h3').style.color = 'black';
+document.querySelector('#header-container').style.backgroundColor = 'purple';
+document.querySelectorAll('.no-emergency-tasks h3')[1].style.backgroundColor= 'white';
+document.querySelectorAll('.no-emergency-tasks h3')[1].style.color= 'black';
+document.querySelectorAll('.emergency-tasks h3')[1].style.color= 'black';
+document.querySelectorAll('.emergency-tasks h3')[1].style.backgroundColor= 'pink';
+document.querySelector('#footer-container').style.backgroundColor = 'purple';
