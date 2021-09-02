@@ -1,0 +1,3 @@
+document.getElementById('page-title').innerText = 'Harry Potter e o prisioneiro de Azkaban';
+document.getElementById('second-paragraph').innerText = 'O terceiro ano de Harry Potter em Hogwarts começa mal quando ele descobre que o assassino Sirius Black escapou da prisão de Azkaban e está empenhado em matá-lo. Enquanto o gato de Hermione atormenta o rato doente de Ron, dementadores são enviados para proteger a escola de Sirius Black. Um professor misterioso ajuda Harry a aprender a se defender.';
+document.getElementById('subtitle').innerText = 'Origem: Wikipédia, a enciclopédia livre.';
