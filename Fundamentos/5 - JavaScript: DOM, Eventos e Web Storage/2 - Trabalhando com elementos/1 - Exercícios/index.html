@@ -75,6 +75,66 @@
       let paiSectionFIlho = document.querySelector('main section');
       let tagP = document.createElement('p');
       paiSectionFIlho.appendChild(tagP);
+      
+      let sectionFilho2 = document.createElement('section');
+      sectionFilho2.className = 'left-content';
+      paiMain.appendChild(sectionFilho2);
+
+      let sectionFilho3 = document.createElement('section');
+      sectionFilho3.className = 'right-content';
+      paiMain.appendChild(sectionFilho3);
+
+      let sectionPass5 = document.querySelector('.left-content');
+      let photo = document.createElement('img');
+      photo.className = 'small-image';
+      photo.src = 'https://picsum.photos/200';
+      sectionPass5.appendChild(photo)
+      
+      let numeros = [
+        'UM',
+        'DOIS',
+        'TRES',
+        'QUATRO',
+        'CINCO',
+        'SEIS',
+        'SETE',
+        'OITO',
+        'NOVE',
+        'DEZ'
+    ];
+    let sectionPass8 = document.querySelector('.right-content');
+    let tagUl = document.createElement('ul');
+    sectionPass8.appendChild(tagUl)
+    for (let i = 0; i < numeros.length; i += 1) {
+      let list = numeros[i];
+      
+      let tagLi = document.createElement('li');
+      tagLi.innerHTML = list;
+      tagLi.className = 'lista';
+      tagUl.appendChild(tagLi)
+    }
+    let tagH3 = document.createElement('h3');
+    let tagH32 = document.createElement('h3');
+    let tagH33 = document.createElement('h3');
+    paiMain.appendChild(tagH3)
+    paiMain.appendChild(tagH32)
+    paiMain.appendChild(tagH33)
+
+    titulo.className = 'title';
+    tagH3.className = 'description ';
+    tagH32.className = 'description ';
+    tagH33.className = 'description ';
+
+    paiMain.removeChild(sectionFilho2)
+
+    sectionFilho3.style.marginRight = 'auto';
+
+    sectionFilho.style.backgroundColor = 'green';
+
+    let endNume = document.querySelectorAll('ul li');
+    tagUl.removeChild(endNume[9])
+    tagUl.removeChild(endNume[8])
+
     </script>
   </body>
 </html>
