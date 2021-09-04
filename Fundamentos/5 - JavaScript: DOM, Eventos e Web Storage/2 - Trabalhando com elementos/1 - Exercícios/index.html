@@ -89,7 +89,30 @@
       photo.className = 'small-image';
       photo.src = 'https://picsum.photos/200';
       sectionPass5.appendChild(photo)
-     
+      
+      let numeros = [
+        'UM',
+        'DOIS',
+        'TRES',
+        'QUATRO',
+        'CINCO',
+        'SEIS',
+        'SETE',
+        'OITO',
+        'NOVE',
+        'DEZ'
+    ];
+    let sectionPass8 = document.querySelector('.right-content');
+    let tagUl = document.createElement('ul');
+    sectionPass8.appendChild(tagUl)
+    for (let i = 0; i < numeros.length; i += 1) {
+      let list = numeros[i];
+      
+      let tagLi = document.createElement('li');
+      tagLi.innerHTML = list;
+      tagUl.appendChild(tagLi)
+      
+    }
     </script>
   </body>
 </html>
