@@ -10,5 +10,18 @@
     <section id="quartoEUltimoFilho"></section>
   </section>
   <script>
-    document.createElement('section') = 'elementoOndeVoceEsta2';
+    
+    let endSec = document.querySelector('#pai');
+    let elementoOndeVoceEsta2 = document.createElement('section');
+    elementoOndeVoceEsta2.className = 'elementoOndeVoceEsta2';
+    endSec.appendChild(elementoOndeVoceEsta2);
+
+    let endEle = document.querySelector('#elementoOndeVoceEsta')
+    let filhoElemen = docuemnt.createElement('filhoElementoOndeVoceEsta');
+    endEle.appendChild(filhoElemen);
+    
+    let primeiroFIlho = document.querySelector('#primeiroFilhoDoFilho')
+    let filhodofilho = document.createElement('primeiroFilhoDoFilhoDoFilho');
+    primeiroFIlho.appendChild(filhodofilho);
+    
 </main>
