@@ -110,6 +110,7 @@
       
       let tagLi = document.createElement('li');
       tagLi.innerHTML = list;
+      tagLi.className = 'lista';
       tagUl.appendChild(tagLi)
     }
     let tagH3 = document.createElement('h3');
@@ -129,6 +130,11 @@
     sectionFilho3.style.marginRight = 'auto';
 
     sectionFilho.style.backgroundColor = 'green';
+
+    let endNume = document.querySelectorAll('ul li');
+    tagUl.removeChild(endNume[9])
+    tagUl.removeChild(endNume[8])
+
     </script>
   </body>
 </html>
