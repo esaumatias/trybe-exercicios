@@ -33,3 +33,19 @@ function createDays() {
   }
 } 
 createDays();
+
+function feri() {
+  let locaButao = document.querySelector('.buttons-container');
+  let butao = document.createElement('button');
+  butao.className = 'btn-holiday'
+  butao.innerHTML = 'Feriados'
+  locaButao.appendChild(butao)
+} feri();
+
+let feriadosBu = document.querySelector('btn-holiday');
+feriadosBu.addEventListener('click', evento);
+
+function evento (){
+  let corHoly = document.querySelector('.holiday');
+  corHoly.innerHTML = 'oila';
+}
