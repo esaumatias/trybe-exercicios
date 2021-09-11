@@ -26,7 +26,7 @@
 - [ ] 4-2: _JavaScript - Array e loop For_
 - [ ] 4-3: _JavaScript - Lógica de Programação e Algoritmos_
 - [ ] 4-4: _JavaScript - Objetos e funções_
-- [ ] 4-5: _[Projeto - Playground Functions]()_
+- [ ] 4-5: _[Projeto - Playground Functions](https://github.com/esaumatias/esaumatias.github.io/tree/master/PROJETOS/playground-functions)_
 
 ##### Bloco 5: Introdução - JavaScript - Projetos
 
@@ -35,7 +35,7 @@
 - [ ] 5-3: _JavaScript - Eventos_
 - [ ] 5-4: _JavaScript - Web Storage_
 - [ ] 5-5: _[Projeto - Meme Generator]()_
-- [ ] 5-6: _[Projeto - Arte com Pixels]()_
+- [ ] 5-6: _[Projeto - Arte com Pixels](https://esaumatias.github.io/PROJETOS/pixels-art/)_
 - [ ] 5-7: _[Projeto - Lista de tarefas]()_
 - [ ] 5-7: _[Projeto - Adivinhe a Cor]()_
 - [ ] 5-7: _[Projeto - Carta Misteriosa]()_
