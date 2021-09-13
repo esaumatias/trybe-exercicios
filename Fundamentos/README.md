@@ -36,7 +36,7 @@
 - [ ] 5-4: _JavaScript - Web Storage_
 - [ ] 5-5: _[Projeto - Meme Generator]()_
 - [ ] 5-6: _[Projeto - Arte com Pixels](https://esaumatias.github.io/PROJETOS/pixels-art/)_
-- [ ] 5-7: _[Projeto - Lista de tarefas]()_
+- [ ] 5-7: _[Projeto - Lista de tarefas](https://esaumatias.github.io/PROJETOS/todo-list/)_
 - [ ] 5-7: _[Projeto - Adivinhe a Cor]()_
 - [ ] 5-7: _[Projeto - Carta Misteriosa]()_
 
