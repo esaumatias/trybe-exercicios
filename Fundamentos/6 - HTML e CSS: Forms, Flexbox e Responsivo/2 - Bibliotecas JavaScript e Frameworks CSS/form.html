@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+  <link rel="stylesheet" href="bootstrap-5.1.1-dist/css/bootstrap.min.css">
+  <script src="jquery-3.6.0.min.js"></script>
+  <script src="bootstrap-5.1.1-dist/js/bootstrap.min.js"></script>
+</head>
+<body class="container p-3 mb-2 bg-success text-white">
+  <header class="container-xl">
+    <div>
+      <h1  class="display-4 d-flex justify-content-center">formulário de currículo</h1>
+    </div>
+  </header>
+  <main class="container px-4 grid" >
+    <form  class="container " action="" method="GET">
+      <div class="container row g-3 align-items-center">
+        <fieldset style="padding: 10px;border-radius: 10px;" class="container mb-3 border">
+          <legend>Dados Pessoais</legend>
+      
+          <label class="disabledTextInput" for="nome">Nome:</label class="disabledTextInput"> <br>
+          <input class="form-control" type="text" name="dados" id="nome" maxlength="40px" required> <br> <br>
+        
+          <label class="disabledTextInput" for="email">E-mail:</label class="disabledTextInput"> <br>
+          <input class="form-control" type="text" name="dados" id="email" maxlength="50px" required><br><br>
+      
+          <label class="disabledTextInput" for="cpf">CPF:</label class="disabledTextInput"> <br>
+          <input class="form-control" type="text" name="dados" id="cpf" maxlength="11px" required><br><br>
+      
+          <label class="disabledTextInput" for="endereço">Endereço:</label class="disabledTextInput"> <br>
+          <input class="form-control" type="text" name="dados" id="endereço" maxlength="200px" required><br><br>
+      
+          <label class="disabledTextInput" for="cidade">Cidade:</label class="disabledTextInput"> <br>
+          <input class="form-control" type="text" name="dados" id="cidade" maxlength="28px" required><br><br>
+      
+          <label class="disabledTextInput" for="estados">Estado:</label class="disabledTextInput"> <br>
+          <select class="form-control user-select" name="dados" id="estados">
+        
+          </select>
+        
+          </label class="disabledTextInput"> <br><br>
+          <label class="disabledTextInput" for="apart">
+            <input class="" type="radio" name="dados" id="apart" required>
+            Casa
+          </label class="disabledTextInput">
+      
+          <label class="disabledTextInput" for="casa">
+            <input class="" type="radio" name="dados" id="casa" required>
+            Apartamento
+          </label class="disabledTextInput">
+        </fieldset>
+      
+        <fieldset style="padding: 10px;border-radius: 10px;" class="container content form-group border">
+          <legend>Dados do último emprego</legend>
+      
+          <label class="disabledTextInput" for="resumo">Resumo do currículo:</label class="disabledTextInput"><br>
+          <textarea class="form-control" name="emprego" id="resumo" cols="30" rows="5" maxlength="1000px" required></textarea><br><br>
+      
+          <label class="disabledTextInput" for="cargo">Cargo:</label class="disabledTextInput"> <br>
+          <input class="form-control" type="text" name="emprego" id="cargo" maxlength="40px" required><br><br>
+      
+          <label class="disabledTextInput" for="descri">Descrição do cargo:</label class="disabledTextInput"> <br>
+          <input class="form-control" type="text" name="emprego" id="descri" maxlength="500px" required><br><br>
+          
+          <label class="disabledTextInput" for="data">Data de início:</label class="disabledTextInput"> <br>
+          <input class="form-control" type="text" name="emprego" id="data">
+          
+        </fieldset>
+        <button style="background-color: aliceblue; color: #198754;" class="btn btn-primary" type="submit" name="emprego">enviar</button> 
+      </div>
+       
+    </form>
+    <script src="scripts.js"> </script>
+  </main>
+  
+</body>
+</html>
