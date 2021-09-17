@@ -36,7 +36,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [ ] 4-5: _[Projeto - Playground Functions](https://github.com/esaumatias/esaumatias.github.io/tree/master/PROJETOS/playground-functions)_
 
 ##### Bloco 5: Introdução - JavaScript - Projetos
-
+ 
 - [ ] 5-1: _JavaScript - DOM e seletores_
 - [ ] 5-2: _JavaScript - Trabalhando com elementos_
 - [ ] 5-3: _JavaScript - Eventos_
