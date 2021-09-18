@@ -6,36 +6,36 @@ O array dezDaysList contém os dois últimos dias de novembro e os dias do mês 
 Os dias devem estar contidos em uma tag <li> , e todos devem ter a classe day . Ex: <li class="day">3</li> <br>
 Os dias 24, 25 e 31 são feriados e, além da classe day , devem conter também a classe holiday . Ex: <li class="day holiday">24</li> <br>
 Os dias 4, 11, 18 e 25 são Sexta-feira. Eles devem conter a classe day e a classe friday . Ex: <li class="day friday">4</li>
-const dezDaysList = [29, 30, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31];;<br>
+const dezDaysList = [29, 30, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31];;<br>br>
 Exercício 2:<br>
 Implemente uma função que receba como parâmetro a string "Feriados" e crie dinamicamente um botão com o nome "Feriados".<br>
 Adicione a este botão a ID "btn-holiday" .<br>
-Adicione este botão como filho/filha da tag <div> com classe "buttons-container" .<br>
+Adicione este botão como filho/filha da tag <div> com classe "buttons-container" .<br>br>
 Exercício 3:<br>
 Implemente uma função que adicione ao botão "Feriados" um evento de "click" que muda a cor de fundo dos dias que possuem a classe "holiday" .<br>
-É interessante que este botão possua também a lógica inversa. Ao ser clicado novamente ele retorna à configuração inicial com a cor "rgb(238,238,238)" .<br>
+É interessante que este botão possua também a lógica inversa. Ao ser clicado novamente ele retorna à configuração inicial com a cor "rgb(238,238,238)" .<br>br>
 Exercício 4:<br>
 Implemente uma função que receba como parâmetro a string "Sexta-feira" e crie dinamicamente um botão com o nome "Sexta-feira".<br>
 Adicione a este botão o ID "btn-friday" .<br>
-Adicione este botão como filho/filha da tag <div> com classe "buttons-container" .<br>
+Adicione este botão como filho/filha da tag <div> com classe "buttons-container" .<br>br>
 Exercício 5:<br>
 Implemente uma função que adicione ao botão "Sexta-feira" um evento de "click" que modifica o texto exibido nos dias que são Sexta-feira.<br>
-É interessante que este botão possua também a lógica inversa. Ao ser clicado novamente ele retorna à configuração inicial exibindo os dias.<br>
+É interessante que este botão possua também a lógica inversa. Ao ser clicado novamente ele retorna à configuração inicial exibindo os dias.<br>br>
 Exercício 6:<br>
 Implemente duas funções que criem um efeito de "zoom". Ao passar o ponteiro do mouse em um dia do mês no calendário, o texto desse dia deve aumentar e, quando o ponteiro do mouse sair do dia, o texto deve retornar ao tamanho original.<br>
-Dica - Propriedade: event.target .<br>
+Dica - Propriedade: event.target .<br>br>
 Exercício 7:<br>
 Implemente uma função que adiciona uma tarefa personalizada ao calendário. A função deve receber como parâmetro a string com o nome da tarefa (ex: "cozinhar") e criar dinamicamente um elemento com a tag <span> contendo a tarefa.<br>
-O elemento criado deverá ser adicionado como filho/filha da tag <div> que possui a classe "my-tasks" .<br>
+O elemento criado deverá ser adicionado como filho/filha da tag <div> que possui a classe "my-tasks" .<br>br>
 Exercício 8:<br>
 Implemente uma função que adiciona uma legenda com cor para a tarefa criada no exercício anterior. Esta função deverá receber como parâmetro uma string ("cor") e criar dinamicamente um elemento de tag <div> com a classe task .<br>
 O parâmetro cor deverá ser utilizado como cor de fundo da <div> criada.<br>
-O elemento criado deverá ser adicionado como filho/filha da tag <div> que possui a classe "my-tasks" .<br>
+O elemento criado deverá ser adicionado como filho/filha da tag <div> que possui a classe "my-tasks" .<br>br>
 Exercício 9:<br>
 Implemente uma função que adiciona um evento que, ao clicar no elemento com a tag <div> referente a cor da sua tarefa, atribua a este elemento a classe task selected , ou seja, quando sua tarefa possuir a classe task selected , ela estará selecionada.<br>
-Ao clicar novamente no elemento, a sua classe deverá voltar a ser somente task , ou seja, esta tarefa está deixando de ser uma tarefa selecionada.<br>
+Ao clicar novamente no elemento, a sua classe deverá voltar a ser somente task , ou seja, esta tarefa está deixando de ser uma tarefa selecionada.<br>br>
 Exercício 10:<br>
-Implemente uma função que adiciona um evento que, ao clicar em um dia do mês no calendário, atribua a este dia a cor da legenda da sua tarefa selecionada.<br>
+Implemente uma função que adiciona um evento que, ao clicar em um dia do mês no calendário, atribua a este dia a cor da legenda da sua tarefa selecionada.<br>br>
 Ao clicar novamente no dia com a cor da legenda, a sua cor deverá voltar à configuração inicial rgb(119,119,119) .<br>
 Bônus:<br>
 Vamos adicionar compromissos ao seu calendário? Implemente uma função que, ao digitar um compromisso na caixa de texto "COMPROMISSOS", adiciona o item à lista "MEUS COMPROMISSOS" ao clicar no botão "ADICIONAR".<br>
