@@ -61,3 +61,30 @@ html {
   }
 }
 
+@media screen and (min-width:801px)  {
+  body {
+    background-color: rgb(86, 206, 50);
+    text-align: justify;
+    margin: 40px 70px;
+  }
+  
+  header p {
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  p {
+    text-align: center;
+    font-size: 30px;
+  }
+
+  h2, h1, h3 {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  li {
+    font-size: 25px;
+  }
+}
