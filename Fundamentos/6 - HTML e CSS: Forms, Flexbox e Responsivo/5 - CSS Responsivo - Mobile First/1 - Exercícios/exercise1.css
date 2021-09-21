@@ -1,0 +1,61 @@
+body {
+
+}
+h1 {
+
+}
+h2 {
+
+}
+
+img {
+    max-width: 100%;
+}
+
+figure {
+    margin: 0;
+}
+
+@media screen and (max-width:800px) {
+  p {
+    font-size: 21px;
+  }
+
+  h1 {
+    font-size: 26px;
+  }
+
+  figure {
+    margin-bottom: 22px;
+    max-width: 50%;
+  }
+
+  body {
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: antiquewhite;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .imagens {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+}
+
+@media screen and (min-width:801px) and (max-width:1300px) {
+  body {
+    background-color: aquamarine;
+    margin: 0 20px;
+  }
+
+  p {
+    font-size: 25px;
+  }
+  
+}
