@@ -77,3 +77,15 @@ p strong {
     display: flex;
   }
 }
+
+@media screen and (min-width:0px) {
+  .cards .card:nth-child(3) {
+    display: flex;
+  }
+}
+
+@media screen and (min-width:650px) and (max-width:950px) {
+  .cards .card:nth-child(3) {
+    display: none;
+  }
+}
