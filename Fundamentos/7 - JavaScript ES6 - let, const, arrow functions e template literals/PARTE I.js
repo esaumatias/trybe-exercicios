@@ -25,15 +25,12 @@
       // 1 - Utilize template literals para que a chamada console.log(<seu código>oddsAndEvens<seu código>); retorne "Os números 2,3,4,7,10,13 se encontram ordenados de forma crescente!".
       // Bônus (opcional): tente fazer o mesmo exercício utilizando o método array.sort() . Spoiler: É possível realizar uma função que ordene qualquer array de números.
       // Copie o código abaixo.
-      // const oddsAndEvens = [13, 3, 4, 10, 7, 2];
+      
+      const oddsAndEvens = [13, 3, 4, 10, 7, 2];
 
       // Seu código aqui.
 
-      const comparaNumeros = (a,b) =>  { 
-        if (a == b) return 0; 
-        if (a < b) return -1; 
-        if (a > b) return 1; 
-      }
+      const comparaNumeros = (a,b) => a - b;
 
       console.log(oddsAndEvens.sort(comparaNumeros));
 
