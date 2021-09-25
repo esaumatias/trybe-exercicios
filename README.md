@@ -25,7 +25,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 3-2: _HTML & CSS - Primeiros passos em CSS_
 - [x] 3-3: _HTML & CSS - Seletores e posicionamento_
 - [x] 3-4: _HTML Semântico_
-- [x] 3-5: _[Projeto - HTML & CSS](https://esaumatias.github.io/PROJETOS/lessons-learned/)_
+- [x] 3-5: _[Projeto - HTML & CSS](https://esaumatias.github.io/projetos/lessons-learned/)_
 
 ##### Bloco 4: Introdução - JavaScript
  
@@ -41,9 +41,9 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 5-2: _JavaScript - Trabalhando com elementos_
 - [x] 5-3: _JavaScript - Eventos_
 - [x] 5-4: _JavaScript - Web Storage_
-- [x] 5-5: _[Projeto - Meme Generator](https://esaumatias.github.io/PROJETOS/meme-generator/)_
-- [x] 5-6: _[Projeto - Arte com Pixels](https://esaumatias.github.io/PROJETOS/pixels-art/)_
-- [x] 5-7: _[Projeto - Lista de tarefas](https://esaumatias.github.io/PROJETOS/todo-list/)_
+- [x] 5-5: _[Projeto - Meme Generator](https://esaumatias.github.io/projetos/meme-generator/)_
+- [x] 5-6: _[Projeto - Arte com Pixels](https://esaumatias.github.io/projetos/pixels-art/)_
+- [x] 5-7: _[Projeto - Lista de tarefas](https://esaumatias.github.io/projetos/todo-list/)_
 - [ ] 5-7: _[Projeto - Adivinhe a Cor]()_
 - [ ] 5-7: _[Projeto - Carta Misteriosa]()_
 
