@@ -34,5 +34,21 @@
 
       console.log(oddsAndEvens.sort(comparaNumeros));
 
+      // Crie uma página que contenha:
+      // Um botão ao qual será associado um event listener ;
+      // Uma variável clickCount no arquivo JavaScript que acumule o número de clicks no botão;
+      // Um campo no HTML que vá atualizando a quantidade de clicks no botão conforme a variável clickCount é atualizada.
+
+      let buttonInput = document.querySelector('#button')
+      let textH1 = document.querySelector('#h1')
+
+      let soma4 = 0;
+
+      function contador() {
+        soma4 += 1;
+        textH1.innerHTML = soma4;
+      }
+
+      buttonInput.addEventListener('click', contador);
      
      
