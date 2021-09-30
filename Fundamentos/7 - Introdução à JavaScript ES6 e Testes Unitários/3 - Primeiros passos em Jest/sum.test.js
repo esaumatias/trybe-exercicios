@@ -1,6 +1,7 @@
 const {
   sum,
-  myRemove
+  myRemove,
+  myFizzBuzz
 } = require('./sum.js');
 
 
@@ -22,6 +23,7 @@ describe('testa a função sum', () => {
   });
 });
 
+
 describe('testa função myRemove', () => {
   it('verifica se retorna array ([1, 2, 3, 4], 3)', () => {
     expect(myRemove([1, 2, 3, 4], 3)).toEqual(([1, 2, 4]));
@@ -33,5 +35,11 @@ describe('testa função myRemove', () => {
 
   it('verifica se retorna array ([1, 2, 3, 4], 5)', () => {
     expect(myRemove([1, 2, 3, 4], 5)).toEqual(([1, 2, 3, 4]));
+  });
+});
+
+describe('testa a função myFizzBuzz', () => {
+  it('verifica se numero é divisivel por 3 e 5', () => {
+    expect(myFizzBuzz(15).toBe("Fizz"));
   });
 });
