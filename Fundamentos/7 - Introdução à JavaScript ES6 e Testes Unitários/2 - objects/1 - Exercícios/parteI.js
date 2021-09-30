@@ -48,6 +48,9 @@ const customerInfo = (order) => {
 
 customerInfo(order);
 
+cliente[0] =  'Luiz Silva';
+preco[0] = 50;
+
 const orderModifier = (order) => {
   // Adicione abaixo as informações necessárias.
   console.log(`OLá ${cliente[0]}, o total do seu pedido de ${pizza} e ${drink[0]} é R$ ${preco},00. `)
