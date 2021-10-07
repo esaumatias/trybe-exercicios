@@ -62,3 +62,14 @@ const books = [
 ];
 
 // Adicione o código do exercício aqui:
+
+const expectedResult = 43;
+
+function averageAge() {
+  // escreva seu código aqui
+  const idadeMedia = books.reduce((acumulador, currentValue) => {
+    return acumulador + (currentValue.releaseYear - currentValue.author.birthYear)
+  }, 0);
+  return idadeMedia / books.length;
+}
+console.log(averageAge())
