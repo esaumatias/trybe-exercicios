@@ -68,7 +68,7 @@
 
 - [x] 9-1: _JavaScript Assíncrono e Callbacks_
 - [x] 9-2: _JavaScript Promises_
-- [ ] 9-3: _[Projeto - Carrinho de Compras]()_
+- [x] 9-3: _[Projeto - Carrinho de Compras](https://esaumatias.github.io/projetos/shopping-cart/)_
 
 ##### Bloco 10: Jest
 
