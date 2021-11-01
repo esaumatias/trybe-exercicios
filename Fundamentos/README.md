@@ -1,4 +1,4 @@
-<h1>Fundamentos do Desenvolvimento Web :white_check_mark </h1>
+<h1>Fundamentos do Desenvolvimento Web :white_check_mark:</h1>
 <h3>Aqui estarão exercícios de prática referente aos conteúdos aprendidos na Trybe.</h3> 
 
 ##### Bloco 01: Unix & Bash
