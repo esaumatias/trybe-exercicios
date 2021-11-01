@@ -1,4 +1,4 @@
-<h1>Fundamentos do Desenvolvimento Web </h1>
+<h1>Desenvolvimento Front-end :hourglass_flowing_sand:</h1>
 <h3>Aqui estarão exercícios de prática referente aos conteúdos aprendidos na Trybe.</h3> 
 
 ##### Bloco 10: Introdução - React
