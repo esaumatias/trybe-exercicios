@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import ValidEmail from './ValidEmail';
 
 class App extends React.Component {
   render() {
@@ -9,9 +10,10 @@ class App extends React.Component {
           email
         <input type="email" id="email" />
         </label>
-        <button type="submit">
+        <button type="submit" data-testid="id-submit" value="enviar">
           enviar
         </button>
+        <ValidEmail email="test@test.com" />
       </div>
     )
   }
