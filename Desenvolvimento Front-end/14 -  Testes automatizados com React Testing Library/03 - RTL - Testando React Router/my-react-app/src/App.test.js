@@ -1,8 +1,15 @@
+import React from 'react';
 import { render, screen } from '@testing-library/react';
-import App from './App';
+import RenderWithRouter from './RenderWithRouter';
+import App, { About } from './App';
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
-});
+describe('teste da aplicação toda', () => {
+  it('deve renderizar o componente App', () => {
+    RenderWithRouter(<App />);
+
+    const homeTitle = screen.getByRole('heading', {
+      name: 'Você está na página Início',
+    });
+    expect(homeTitle).toBeInTheDocument();
+  })
+})
