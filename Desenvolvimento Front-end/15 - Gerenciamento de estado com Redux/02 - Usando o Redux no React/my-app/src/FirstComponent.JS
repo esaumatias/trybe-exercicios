@@ -19,3 +19,5 @@ const mapStateToProps = state => ({
   myFirstState: state.myReducer.state});
 
 export default connect(mapStateToProps, null)(FirstComponent);
+
+export default connect(null, mapDispatchToProps)(App);
