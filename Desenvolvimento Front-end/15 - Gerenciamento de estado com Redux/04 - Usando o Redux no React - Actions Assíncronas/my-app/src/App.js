@@ -1,7 +1,7 @@
 // src/App.js
 import React from 'react';
 import { connect } from 'react-redux';
-import { fetchDog } from './redux/store/store';
+import { fetchDog } from './redux/actions/actions';
 
 function App({ isFetching, src, fetchDog }) {
   return (
@@ -22,8 +22,8 @@ function App({ isFetching, src, fetchDog }) {
 }
 
 const mapStateToProps = (state) => ({
-  src: state.imagePath,
-  isFetching: state.isFetching});
+  src: state.reducer.imagePath,
+  isFetching: state.reducer.isFetching});
 
 const mapDispatchToProps = (dispatch) => ({
   fetchDog: () => dispatch(fetchDog())});

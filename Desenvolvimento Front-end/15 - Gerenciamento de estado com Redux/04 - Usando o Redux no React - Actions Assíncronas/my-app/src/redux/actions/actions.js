@@ -1,33 +1,27 @@
-export const REQUEST_MOVIES = 'REQUEST_MOVIES';
-export const RECEIVE_MOVIES = 'RECEIVE_MOVIES';
+export const GET_IMAGE = 'GET_IMAGE';
+export const REQUEST_IMAGE = 'REQUEST_IMAGE';
+export const FAILED_REQUEST = 'FAILED_REQUEST';
 
-// action creator que retorna um objeto, que você tem feito até então
-const requestMovies = () => ({
-  type: REQUEST_MOVIES});
+export function getImage(json) {
+  return { type: GET_IMAGE, payload: json.message };
+}
 
-// outro action creator que retorna um objeto, que você tem feito até então
-const receiveMovies = (movies) => ({
-  type: RECEIVE_MOVIES,
-  movies});
+export function requestDog() {
+  return { type: REQUEST_IMAGE };
+}
 
-// action creator que retorna uma função, possível por conta do pacote redux-thunk
-export function fetchMovies() {
-  return (dispatch) => { // thunk declarado
-    dispatch(requestMovies());
-    return fetch('alguma-api-qualquer.com')
-      .then((response) => response.json())
-      .then((movies) => dispatch(receiveMovies(movies)));
+export function failedRequest(error) {
+  return { type: FAILED_REQUEST, payload: error };
+}
+
+export function fetchDog() {
+  return (dispatch) => {
+    dispatch(requestDog());
+    return fetch('https://dog.ceo/api/breeds/image/random')
+      .then((r) => r.json()
+        .then(
+          (json) => dispatch(getImage(json)),
+          (error) => dispatch(failedRequest(error)),
+        ));
   };
 }
-
-// componente onde você usaria a action creator fetchMovies assíncrona como uma outra qualquer
-...
-class MyConectedAppToRedux extends Component {
-  ...
-  componentDidMount() {
-    const { dispatch, fetchMovies } = this.props;
-    dispatch(fetchMovies()); // enviando a action fetchMovies
-  }
-  ...
-}
-...
