@@ -1,10 +1,13 @@
 /* index.js */
 const express = require('express');
+const bodyParser = require('body-parser');
 
 const cors = require('cors');
+
 const app = express();
 
-app.use(cors());
+// app.use(cors());
+app.use(bodyParser.json());
 
 const recipes = [
   { id: 1, name: 'Lasanha', price: 40.0, waitTime: 30 },
@@ -40,11 +43,11 @@ const drinks = [
 //   res.status(200).json(drink);
 // })
 
-app.get('/recipes/search', function (req, res) {
-  const { name } = req.query;
-  const filteredRecipes = recipes.filter((r) => r.name.includes(name));
-  res.status(200).json(filteredRecipes);
-});
+// app.get('/recipes/search', function (req, res) {
+//   const { name } = req.query;
+//   const filteredRecipes = recipes.filter((r) => r.name.includes(name));
+//   res.status(200).json(filteredRecipes);
+// });
 
 app.get('/drinks/search', function (req, res) {
   const { name , minPrice} = req.query;
@@ -52,8 +55,18 @@ app.get('/drinks/search', function (req, res) {
   res.status(200).json(filterDrinks);
 })
 
+app.get('/recipes', function (req, res) {
+  res.send(recipes)
+})
+
+app.post('/recipes', function (req, res) {
+  const { id, name, price } = req.body;
+  recipes.push({ id, name, price});
+  res.status(201).json({ message: 'Recipe created successfully!'});
+});
+
 app.listen(3001, () => {
   console.log('Aplicação ouvindo na porta 3001');
 });
 
-//http://localhost:3001/drinks/search?name=Refrigerante&minPrice=2
+//
