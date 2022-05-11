@@ -21,6 +21,15 @@ class BookModel {
             return rows;
         });
     }
+    getById(id) {
+        return __awaiter(this, void 0, void 0, function* () {
+            const result = yield this.connection
+                .execute('SELECT * FROM books WHERE id=?', [id]);
+            const [rows] = result;
+            const [book] = rows;
+            return book;
+        });
+    }
     create(book) {
         return __awaiter(this, void 0, void 0, function* () {
             const { title, price, author, isbn } = book;
